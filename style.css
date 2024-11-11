@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&family=Overpass:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');body
+{
+  background-color: #040d08;
+}
+
+p
+{
+  color: white;
+  font-family: "Overpass", Arial, Helvetica;
+  font-size: 14px;
+}
+.portrait
+{
+  width: 300px;
+  border-radius: 50%;
+  border-color: #2e8b57;
+
+}
+h1
+{
+  color: white;
+  font-family: "Overpass", Arial, Helvetica;
+  font-size: 26px;
+  font-weight: 400;
+}
+
+h2
+{
+  color: white;
+  font-family: "Overpass", Arial, Helvetica;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+li
+{
+  color: white;
+  font-family: "Overpass", Arial, Helvetica;
+}
+.header-picture{
+  background-image: url("images/kashyyyk.jpg");
+  width: 100%;
+  height: 500px;
+  background-repeat: no-repeat;
+  position: absolute;
+  margin: 0 auto;
+}
+
+.container
+{
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 500px;
+
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+.card {
+  background-color: #556B57;
+  padding: 30px;
+  margin: 20px;
+  border: 1px solid lightgrey;
+  border-radius: 6px;
+
+}
+.card.ref li
+{
+  list-style-type: none;
+  display: inline;
+}
+.card.ref img:hover
+{
+  /* outline: 1px solid white; */
+  box-shadow: 2px 2px 4px black;
+}
+
+.button-green
+{
+  border-radius: 6px;
+  background-color: #040d08;
+  color: white;
+  padding: 5px;
+  text-decoration: none;
+  font-family: "Overpass", Arial, Helvetica;
+  font-size: 12px;
+}
+.button-green:hover
+{
+  border-radius: 6px;
+  background-color: #2E8B57;
+  color: white;
+  padding: 5px;
+  text-decoration: none;
+}
+.img-circle-small
+{
+  border-radius: 50%;
+  height: 40px;
+}
+
+/* Skills */
+.skills ul
+{
+  list-style-type: none;
+  line-height: 35px;
+}
+
+.img-wookie
+{
+  width: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Footer */
+#footer{
+  text-align: center;
+}
+.list-inline > li {
+  display: inline-block;
+}
+.list-inline {
+  list-style: none;
+}
+
+/* Navbar */
+
+.navbar
+{
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+}
+.navbar ul
+{
+  display: flex;
+  list-style-type: none;
+  text-transform: uppercase;
+}
+.navbar li
+{
+padding-left: 1rem;
+font-size: 20px;
+}
+.navbar a:hover {
+  color: #2E8B57;
+  cursor: pointer;
+}
+
+/* Reponsive */
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    margin-top: 300px;
+  }
+  .header-picture {
+    height: 300px;
+  }
+}
